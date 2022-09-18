@@ -1,0 +1,90 @@
+.header {
+    background-color: #363348;
+    background-image: url(/img/bg/bg.png);
+    background-repeat: no-repeat;
+}
+
+.container-menu {
+    max-width: 1470px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        margin-right: 26px;
+    }
+
+    .line {
+        width: 1px;
+        height: 56px;
+        background-color: #fff;
+        opacity: 0.1;
+        margin-right: 25px;
+    }
+
+    .menu-text {
+        font-size: 12px;
+        line-height: 1.1;
+        letter-spacing: 0.4px;
+        color: #fff;
+        margin-right: 112px;
+    }
+
+    .nav {
+        color: #fff;
+        margin-right: 282px;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .list-item+.list-item {
+        margin-left: 32px;
+    }
+
+    .list-item {
+        list-style-type: none;
+        padding-bottom: 8px;
+        transition: all 0.4s ease-in;
+    }
+
+    .list-item:hover {
+        border-bottom: solid 1px #E5B093;
+        margin-top: -1px;
+    }
+
+    .menu-number-phone {
+        margin-right: 30px;
+    }
+
+    .menu-number-phone a {
+        color: #fff;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.1;
+    }
+
+    .callback {
+        display: flex;
+    }
+
+    .callback-icon {
+        width: 27px;
+        height: 27px;
+        margin-right: 10px;
+    }
+
+    .callback-text {
+        color: #E9BC9B;
+        font-size: 14px;
+        letter-spacing: 0.4px;
+        line-height: 1.2;
+    }
+}
